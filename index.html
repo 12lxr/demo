@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -58,11 +58,29 @@
                             <li>
                                 <details open style="text-indent: 15px;cursor: pointer;-webkit-tap-highlight-color: transparent;">
                                     <summary style="padding: 15px 20px;letter-spacing: .035em;cursor: default;font-size: 16px;">关系抽取</summary>
-                                    <li>
+                                    <!--<li>
                                         <a href="index.html" class="waves-effect">
                                             <i class="mdi mdi-code-not-equal"></i>
                                             <span> 文档级关系抽取 </span>
                                         </a>
+                                    </li>-->
+                                    <li>
+                                        <details open style="text-indent: 26px;cursor: pointer;-webkit-tap-highlight-color: transparent;">
+                                            <summary style="padding: 15px 20px;letter-spacing: .035em;cursor: default;font-size: 15px;">文档级关系抽取</summary>
+                                                    <li>
+                                                        <a href="index.html"  class="waves-effect">
+                                                            <i class="mdi mdi-code-not-equal"></i>
+                                                            <span> 展示样例</span>
+                                                        </a>
+                                                    </li>
+                                                    <br/>
+                                                    <li>
+                                                        <a href="re_st.html"  class="waves-effect">
+                                                            <i class="mdi mdi-code-not-equal"></i>
+                                                            <span> 输入样例</span>
+                                                        </a>
+                                                    </li>
+                                        </details>
                                     </li>
                                     </br>
                                     <li>
@@ -235,15 +253,15 @@
                                                 展示文本为标注后的文本，在此展示去掉标注的文本。
                                             </p>
                                             <div id="colored" >
-        
+
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div class="row" style="display:none;" id="div_visualization">
-                                
+
                                 <div class="col-lg-6">
                                     <div class="card">
                                         <div class="card-body">
@@ -255,28 +273,28 @@
                                         </div>
                                     </div>
                                 </div> <!-- end col -->
-                                
+
                                 <div class="col-lg-6">
                                     <div class="card" >
                                         <div class="card-body" >
-    
+
                                             <h4 class="mt-0 header-title">动态图</h4>
                                             <p class="text-muted mb-4 font-14 " id="my_table">
                                                 该图展示了各三元组
                                             </p>
                                             <div id = "div_graph" style="width: 500px;height:350px;">
-    
+
                                             </div>
-    
+
                                         </div>
                                     </div>
                                 </div> <!-- end col -->
 
-                            </div> <!-- end row -->      
+                            </div> <!-- end row -->
 
 
-                            
-        
+
+
                         </div><!-- container -->
 
                     </div> <!-- Page content Wrapper -->
